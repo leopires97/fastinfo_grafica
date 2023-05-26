@@ -81,7 +81,7 @@ img {
 }
 
 a:hover {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -189,15 +189,15 @@ fieldset {
 
 .button-style {
 	border-radius: 50px;
-	border: 3px solid #fff;
-	color: #fff;
+	border: 3px solid darkgrey;
+	color: darkgrey;
 	overflow: hidden;
 }
 
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #002856;
+	background: #383e46;
 	color: #ffffff !important;
 }
 
@@ -362,14 +362,14 @@ body.loaded #preloader{
 .header-text {}
 
 .home-section-background h2 {
-    color: #f8f8f8;
+    color: darkgrey;
     font-size: 50px;
     letter-spacing: 5px;
     margin: 0;
 }
 
 .home-section-background p {
-    color: #f8f8f8;
+    color: darkslategray;
     letter-spacing: 4px;
     font-size: 15px;
 	margin-top: 40px;
@@ -465,7 +465,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #000;
+    background: #194570;
 }
 
 .navigation-background .logo {
