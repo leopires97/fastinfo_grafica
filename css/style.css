@@ -189,8 +189,8 @@ fieldset {
 
 .button-style {
 	border-radius: 50px;
-	border: 3px solid darkgrey;
-	color: darkgrey;
+	border: 3px solid #256db3;
+	color: #256db3;
 	overflow: hidden;
 }
 
@@ -362,14 +362,14 @@ body.loaded #preloader{
 .header-text {}
 
 .home-section-background h2 {
-    color: darkgrey;
+    color: #1b4b7a;
     font-size: 50px;
     letter-spacing: 5px;
     margin: 0;
 }
 
 .home-section-background p {
-    color: darkslategray;
+    color: #1b4b7a;
     letter-spacing: 4px;
     font-size: 15px;
 	margin-top: 40px;
@@ -433,7 +433,7 @@ body.loaded #preloader{
 }
 
 .navigation-menu .navbar-nav li a {
-    color: #fff;
+    color: #256db3;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
@@ -441,11 +441,12 @@ body.loaded #preloader{
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 600;
+    background-color: rgb(37, 109, 179, .1) ;
 }
 
 .navigation-menu .navbar-nav li a:hover {
     background: none;
-    color: #fff;
+    color: #1b4b7a;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -453,7 +454,7 @@ body.loaded #preloader{
 .nav li a:focus,
 .nav li a:hover {
     background: none;
-    color: #fff;
+    color: #1b4b7a;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -465,7 +466,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #194570;
+    background: #256db3;
 }
 
 .navigation-background .logo {
@@ -475,14 +476,14 @@ body.loaded #preloader{
 }
 
 .navigation-background .navigation-menu .navbar-nav li a {
-    color: #fff;
-    padding: 20px 15px;
+    color: #1b4b7a;
+    padding: 30px 15px;
     -webkit-transition: .3s;
     transition: .3s;
 }
 
 .navigation-background .navigation-menu .navbar-nav li a:hover {
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -1054,7 +1055,7 @@ ul.portfolio li.active {
     }
     .home-section-background h2 {
         font-size: 22px;
-    }
+    }   
     .section-title h2 {
         font-size: 22px;
     }
